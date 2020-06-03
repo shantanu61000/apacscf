@@ -1,0 +1,40 @@
+.img-logo{
+    height:40px;
+    width:100px;
+}
+nav ul li{
+    list-style: none;
+    padding-left: 15px;
+    color: white;
+}
+
+   
+.navbar{
+    background-color: #153e6f;
+} 
+.navbar .navbar-nav .nav-link{
+    color: #ffffff;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover{
+	color: #ffc107;
+}
+@media (min-width : 500px){
+
+    .img-logo{
+        height:45px;
+        width:120px;
+    }
+
+    nav ul li{
+        padding-top: 10px;
+    }
+}
+@media (min-width:767px){
+    nav ul li a{
+        display: block;
+    }
+}
+@media (min-width: 1000px){
+
+}
