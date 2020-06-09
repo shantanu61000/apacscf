@@ -19,6 +19,13 @@ nav ul li{
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover{
 	color: #ffc107;
 }
+.dropdown-menu .dropdown-item{
+    font-size: 80%;
+    padding-right: 5px;
+}
+.dropdown{
+    transition: 0.3s;
+}
 @media (min-width : 500px){
 
     .img-logo{
